@@ -15,7 +15,7 @@ var filterTasks = require('../lib/filterTasks'),
     _           = require('lodash');
 
 module.exports = function (grunt) {
-    grunt.registerMultiTask('availabletasks', 'List available Grunt tasks & targets.', function () {
+    grunt.registerMultiTask('available-tasks', 'List available Grunt tasks & targets.', function () {
         var output  = [],
             header  = '',
             options = this.options({
